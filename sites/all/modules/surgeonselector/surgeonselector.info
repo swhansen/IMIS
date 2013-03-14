@@ -1,0 +1,5 @@
+name = Surgeonselector
+description = A module to hold odds and ends for mysite.
+package = Surgeonselector
+core = 7.x
+stylesheets[all][] = css/surgeonselector.css

@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_init().
+ */
+function surgeonselector_init() {
+  // Display a message on every page load.
+  drupal_set_message("Test Module!");
+}
