@@ -1,11 +1,298 @@
 
-.page-node-2 h2 
-{
-color:green;
+/* =============================================================================
+ *   Landing page
+ * ========================================================================== */
+
+ .page-node-2 h1 {
+	color:black;
+	font-size:22pt;
+	font-weight: bold;
+ }
+ .page-node-2 h2 {
+	font-weight: 14pt;
+	color:blue;
+	font-weight: bold;
+ }
+
+ .page-node-2 h3 {
+	font-weight: 16pt;
+	color: blue;
+	font-weight: bold;
+ }
+
+div.view-content {color: gray}
+
+/* =============================================================================
+ *   Surgeon selection results from the view
+ * ========================================================================== */
+
+ .views-field-field-first {
+ 	color:blue;
+ 	font-weight:bold;
+ 	font-size: 16pt;
+ 	float:left;
+ 	margin:1px	
+ }
+
+ .views-field-field-last {color:blue;
+ 	font-weight:bold;
+ 	font-size: 16pt;
+ 	float:left;
+ 	margin:1px;	
+ }
+
+ .views-field-field-suffix {color:blue;
+ 	font-weight:bold;
+ 	font-size: 16pt;
+ 	float:left; 
+ 	margin:1px;
+ }
+
+ .views-field-field-specialty {
+ 	color: blue;
+ 	font-size: 14pt;
+ 	clear:left;
+ }
+
+
+ .views-field-field-address {color: black; font-size: 13pt; clear:left; margin:1px; }
+ .views-field-field-city {color: black; font-size: 13pt; float:left; margin:1px; }
+ .views-field-field-state {color: black; font-size: 13pt; float:left; margin:2px;}
+ .views-field-field-zip {color: black; font-size: 13pt; clear:left; margin:1px;}
+ .views-field-field-website {color: black; font-size: 13pt; clear:left; margin:1px;}
+
+ .views-field-field-professional-statement .field-content {
+ 	font-size: 13pt;
+ 	float: right; 
+ 	width:270px;
+	padding:5px;
+	border:3px solid blue;
+	margin-right:30px;
+	clear: both; 
+ } 
+
+ .views-field-field-education .field-content {
+ 	font-size: 13pt;
+ 	float: right; 
+ 	width:270px;
+	padding:5px;
+	border:3px solid blue;
+	margin-right:30px;
+	clear: both; 
+ } 
+ 
+ .views-field-field-photo {
+ 	solid blue;
+ 	clear:left;
+ }
+
+ input.bookonline{
+ 	background-color: #42A8DF;
+	font-size: 18pt;
+ 	font-weight: bold;
+ 	padding:10px; 	
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;
+ 	width: 200px; 
+ 	padding:0;
+ } 
+
+/* =============================================================================
+ *   Style front page Surgeon Selection form
+ * ========================================================================== */
+
+ .views-exposed-form{
+ 	background-color: #72BEC8; 
+ 	padding:10px;
+ 	box-shadow: 8px 8px 8px #888888;
+ 	margin-right:100px; 
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;
 }
 
-.page-node-2 h1
-{
-color:yellow;
-}
+.home-page-contact-boxes{
+	background-color: #E8F6FC;
+	margin-right:100px;
+	padding:10px; 
+	border-style:solid;
+	border-width:1px;
+	border-color: blue;
+	box-shadow: 8px 8px 8px #888888;
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;}
 
+#edit-submit-surgsel{
+
+	background-color: #42A8DF;
+	font-size: 18pt;
+ 	font-weight: bold;
+ 	padding:10px; 	
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;
+ 	width: 200px; 
+ 	padding:0;
+ }
+
+#edit-field-zip-value{
+	width: auto;  
+    padding: 5px 10px; 
+    font-size: 16pt;
+    font-style: bold;
+    max-width: 50%;	 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+     ackground: -webkit-gradient(linear, left top, left 25, from(#B0C4DE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #B0C4DE, #FFFFFF 25px);
+ 	
+ }
+
+#edit-field-specialty-value{
+	padding: 5px 5px; 
+    font-size: 16pt;
+    font-weight: bold;    
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+     background: -webkit-gradient(linear, left top, left 25, from(#B0C4DE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #B0C4DE, #FFFFFF 25px);
+ 	
+ }
+
+#surgsel-exposed-header{
+	font-weight:bold;
+ 	font-size: 18pt;
+ 	position: relative; top:10px; left: 140px;	
+ }
+
+label[for=edit-field-zip-value] {
+	font-size: 18pt;
+	font-weight: bold;
+	padding: 5px 5px; 
+	
+	}
+
+label[for=edit-field-specialty-value] {
+	font-size: 18pt;
+	font-weight: bold;
+	padding: 5px 5px;
+	
+	}
+
+ 
+/* =============================================================================
+ *   Style Book Online (node-12) -swh
+ * ========================================================================== */
+
+ .webform-client-form input, textarea {   
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF;  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+    }  
+
+    .webform-client-form textarea {   
+    width: 400px;  
+    max-width: 400px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+
+    .webform-client-form label {   
+    margin-left: 20px;   
+    color: #999999;   
+    }  
+  
+ #edit-submit.form-submit {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px; 
+    border-radius: 10px;   
+    }  
+
+
+    #node-12{
+    background-color: #E8F6FC;
+	margin-right:100px;
+	padding:10px; 
+	border-style:solid;
+	border-width:1px;
+	border-color: blue;
+	box-shadow: 8px 8px 8px #888888;
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;}
+
+ 	input:hover, textarea:hover,  
+	input:focus, textarea:focus {   
+    border-color: #C9C9C9;   
+    background:#fff;
+    color:#09C;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+    }  
+
+/* =============================================================================
+ *   Style Member Registration Form -swh
+ * ========================================================================== */
+
+  .form-item input, textarea {   
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF;  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+    }  
+
+    .form-item textarea {   
+    width: 400px;  
+    max-width: 400px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+
+    .user-info-from-cookie{
+    background-color: #E8F6FC;
+	margin-right:100px;
+	padding:10px; 
+	border-style:solid;
+	border-width:1px;
+	border-color: blue;
+	box-shadow: 8px 8px 8px #888888;
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;}
+
+
+ 	.view-surgsel{
+    background-color: #E8F6FC;
+	margin-right:100px;
+	
+	border-style:solid;
+	border-width:1px;
+	border-color: blue;
+	box-shadow: 8px 8px 8px #888888;
+ 	-webkit-border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	border-radius: 10px;}

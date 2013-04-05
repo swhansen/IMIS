@@ -27,10 +27,12 @@
  * @ingroup views_templates
  */
 
-/** Print out the header for physician search results -swh */
+/** Print out the header for physician search results -swh 
  Echo "<html>"; 
  Echo "<strong>Here are the results of your search</strong>";
-
+ Echo "&nbsp";
+ Echo "&nbsp";
+*/
 
 ?>
 <div class="<?php print $classes; ?>">

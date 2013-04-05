@@ -17,21 +17,22 @@ print $wrapper_prefix; ?>
   <?php print $list_type_prefix; ?>
     <?php foreach ($rows as $id => $row): ?>
       <li class="<?php print $classes_array[$id]; ?>"><?php print $row; ?></li>
-      
 <?php    
 
 /** inject the HTML for the Book Online button on every Physician query -swh
- Echo "<html>";
- Echo "<title>HTML with PHP</title>";
- Echo "<b>My Example</b>";
+ echo "<html>";
+ echo "<title>HTML with PHP</title>";
+ echo "<b>My Example</b>";
  Print "<i>Test Rows in views-view-list</i>";  
  */
- Echo '<form action="http://www.surgeonselector.com/drupal/node/12">
-    <input type="submit" value="Book Online Test">
+ echo '<form action="http://127.0.0.1/drupal/node/12">
+    <input type="submit" class="bookonline" value="Book Online">
 </form> ';
-
+ echo '&nbsp';
+ echo "<hr>";
+ echo '&nbsp';
    ?>   
-      
+  
     <?php endforeach; ?>
   <?php print $list_type_suffix; ?>
 <?php print $wrapper_suffix; ?>

@@ -4,5 +4,5 @@
  */
 function surgeonselector_init() {
   // Display a message on every page load.
-  drupal_set_message("Test Module!");
+  drupal_set_message("Test Module for Development Purposes!");
 }

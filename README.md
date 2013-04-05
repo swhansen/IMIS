@@ -1,4 +1,7 @@
-IMIS
-====
+Surgeon Selector Prototype Drupal CMS
+=======================================
 
-Prototype IMIS Portal
+-  Physician/member signup and gegistration
+-  Physician/member profile managment
+-  Client physician/member search
+-  Clinet online appointment request
